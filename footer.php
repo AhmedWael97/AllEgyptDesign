@@ -91,7 +91,7 @@
                 }
             });
         </script>
-		
+		<script src="js/script.js"></script>
 <script src="js/slick.js" type="text/javascript" charset="utf-8"></script>
 </section>
 <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>

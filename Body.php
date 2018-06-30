@@ -344,63 +344,101 @@ include 'NavBar.php';
             <button type="button" class="btn control" data-filter=".filter3">Filter3</button>
         </div>
 
-        <div class="container" data-ref="mixitup-container">
-        	<div class="row">
-        		<div class="col-sm-3">
+        <div class="container" data-ref="mixitup-container" >
+        		
         			<div class="item filter1" data-ref="mixitup-target">
-        					<a href="#" class="thumbnail">
-						      <img src="imgs/footerpic.jpg" alt="...">
-						    </a>
+        				<div class="col-sm-3">
+        			<a href="#" class="thumbnail">
+						 <img src="imgs/footerpic.jpg" alt="...">
+						 </a>
             		</div>
         		</div>
-        		<div class="col-sm-3">
-        			<div class="item filter2" data-ref="mixitup-target">
-        					<a href="#" class="thumbnail">
-						      <img src="imgs/footerpic.jpg" alt="...">
-						    </a>
+        		<div class="item filter2" data-ref="mixitup-target">
+        				<div class="col-sm-3">
+        			<a href="#" class="thumbnail">
+						 <img src="imgs/footerpic.jpg" alt="...">
+						 </a>
             		</div>
         		</div>
-        		<div class="col-sm-3">
-        			<div class="item filter3" data-ref="mixitup-target">
-        					<a href="#" class="thumbnail">
-						      <img src="imgs/footerpic.jpg" alt="...">
-						    </a>
+        		<div class="item filter3" data-ref="mixitup-target">
+        				<div class="col-sm-3">
+        			<a href="#" class="thumbnail">
+						 <img src="imgs/footerpic.jpg" alt="...">
+						 </a>
             		</div>
         		</div>
-        		<div class="col-sm-3">
-        			<div class="item filter3" data-ref="mixitup-target">
-        					<a href="#" class="thumbnail">
-						      <img src="imgs/footerpic.jpg" alt="...">
-						    </a>
+        		<div class="item filter2" data-ref="mixitup-target">
+        				<div class="col-sm-3">
+        			<a href="#" class="thumbnail">
+						 <img src="imgs/footerpic.jpg" alt="...">
+						 </a>
             		</div>
         		</div>
-        		<div class="col-sm-3">
-        			<div class="item filter2" data-ref="mixitup-target">
-        					<a href="#" class="thumbnail">
-						      <img src="imgs/footerpic.jpg" alt="...">
-						    </a>
+        		<div class="item filter2" data-ref="mixitup-target">
+        				<div class="col-sm-3">
+        			<a href="#" class="thumbnail">
+						 <img src="imgs/footerpic.jpg" alt="...">
+						 </a>
             		</div>
         		</div>
-        		<div class="col-sm-3">
-        			<div class="item filter1" data-ref="mixitup-target">
-        					<a href="#" class="thumbnail">
-						      <img src="imgs/footerpic.jpg" alt="...">
-						    </a>
+        		<div class="item filter1" data-ref="mixitup-target">
+        				<div class="col-sm-3">
+        			<a href="#" class="thumbnail">
+						 <img src="imgs/footerpic.jpg" alt="...">
+						 </a>
             		</div>
         		</div>
-        	</div>
-            </div>
 
             <div class="gap"></div>
             <div class="gap"></div>
             <div class="gap"></div>
-        </div>
-
-       
+        </div> 
 </section>
 
-
 								<!-- END SECTION 5 -->
+								<!-- POP UP AND CONTACT US -->
+	<button onclick="topFunction()" id="myBtn" title="Go to top">
+		<span class="glyphicon glyphicon-plane Up">
+		</span>
+	</button>
+		<button onclick="myFunction()" id="myBtn1" title="Go to top">
+		<span class="glyphicon glyphicon-earphone Up">
+		</span>
+		</button>
+		<div class="popup">
+		  <span class="popuptext" id="myPopup">
+		  	<div class="ContactHeader text-center">
+		  		<h2 class="white">
+			  		CONTACT US ..
+			  	</h2>
+			  	<p class="white">
+			  		Description
+			  	</p>
+		  	</div>
+		  	
+		  	<form>
+		  		<label class="white">
+		  			Name
+		  		</label>
+		  		<input type="text" name="Name" class="form-control">
+		  		<br>
+		  		<label class="white">
+		  			Email
+		  		</label>
+		  		<input type="Email" name="Email" class="form-control">
+		  		<br>
+		  		<label class="white">
+		  			Message
+		  		</label>
+		  		<textarea class="form-control">
+		  			
+		  		</textarea> 
+		  		<br>
+		  		<input type="submit" name="Submit" class="btn submitting">
+		  	</form>
+		  </span>
+		</div>
+		<!--END OF  POP UP AND CONTACT US -->
 								<!-- start SECTION 6 -->
 <section class="Section6">
 	<div class="container">
@@ -412,7 +450,7 @@ include 'NavBar.php';
 		<hr>
 		<br>
 		<div class="row">
-			<div class="col-lg-6 zoomOutLeft" onmouseover="ShowActive()" onmouseleave="HideActive()"	>
+			<div class="col-lg-6 " onmouseover="ShowActive()" onmouseleave="HideActive()"	>
 				<div class="anime text-center" id="ActiveVideoHover">
 		              <div class="AnimeContent">
 		               <a class="btn AnimeBtn" onclick="plyvido()" id="play">
@@ -424,35 +462,35 @@ include 'NavBar.php';
 		               <br>
 		              </div>
 		          </div>
-				<video src="imgs/videoplayback.mp4" class="Video"  id="ActiveVideo" >
+				<video src="imgs/videoplayback.mp4" class="Video"  id="ActiveVideo" width="120%">
 				</video>
 			</div>
-			<div class="col-lg-6">
+			<div class="col-lg-6 " >
 				<div class="row">
-					<div class="col-lg-6 zoomInRight" id="MiniVideoPart1" onmouseover="ShowSmall(id)" onmouseleave="HideSmall(id)">
+					<div class="col-lg-6 " id="MiniVideoPart1" onmouseover="ShowSmall(id)" onmouseleave="HideSmall(id)">
 						<div class="Smallanime text-center" id="SmallVideo1">
 		              <div class="AnimeContent">
-		               	<a class="btn SmallBtn">
+		               	<a class="btn SmallBtn" onclick="MovingVideos(1)">
 		               		<span class="glyphicon glyphicon-retweet">
 		               		</span>
 		               	</a>
 		               <br>
 		              </div>
 		          </div>
-						<video src="imgs/videoplayback.mp4" class="MiniVideo" >
+						<video src="imgs/videoplayback2.mp4" class="MiniVideo" id="VideoNumber1" >
 						</video>
 					</div>
 					<div class="col-lg-6" id="MiniVideoPart2" onmouseover="ShowSmall(id)" onmouseleave="HideSmall(id)">
 						<div class="Smallanime text-center" id="SmallVideo2">
 		              <div class="AnimeContent">
-		               	<a class="btn SmallBtn">
+		               	<a class="btn SmallBtn" onclick="MovingVideos(2)">
 		               		<span class="glyphicon glyphicon-retweet">
 		               		</span>
 		               	</a>
 		               <br>
 		              </div>
 		          </div>
-						<video src="imgs/videoplayback.mp4" class="MiniVideo" >
+						<video src="imgs/videoplayback.mp4" class="MiniVideo" id="MiniVideo1" id="VideoNumber2">
 						</video>
 					</div>
 				</div>
@@ -460,27 +498,27 @@ include 'NavBar.php';
 					<div class="col-lg-6" id="MiniVideoPart3" onmouseover="ShowSmall(id)" onmouseleave="HideSmall(id)">
 						<div class="Smallanime text-center" id="SmallVideo3">
 		              <div class="AnimeContent">
-		               	<a class="btn SmallBtn">
+		               	<a class="btn SmallBtn" onclick="MovingVideos(3)">
 		               		<span class="glyphicon glyphicon-retweet">
 		               		</span>
 		               	</a>
 		               <br>
 		              </div>
 		          </div>
-						<video src="imgs/videoplayback.mp4" class="MiniVideo" >
+						<video src="imgs/videoplayback.mp4" class="MiniVideo"  id="VideoNumber3">
 						</video>
 					</div>
 					<div class="col-lg-6" id="MiniVideoPart4" onmouseover="ShowSmall(id)" onmouseleave="HideSmall(id)">
 						<div class="Smallanime text-center" id="SmallVideo4">
 		              <div class="AnimeContent">
-		               	<a class="btn SmallBtn">
+		               	<a class="btn SmallBtn" onclick="MovingVideos(4)">
 		               		<span class="glyphicon glyphicon-retweet">
 		               		</span>
 		               	</a>
 		               <br>
 		              </div>
 		          </div>
-						<video src="imgs/videoplayback.mp4" class="MiniVideo" >
+						<video src="imgs/videoplayback.mp4" class="MiniVideo" id="VideoNumber4" >
 						</video>
 					</div>
 				</div>
@@ -489,46 +527,17 @@ include 'NavBar.php';
 	</div>
 </section>
 <script type="text/javascript">
-	function plyvido()
-	{
-		document.getElementById('ActiveVideo').play();
-		document.getElementById('play').style.display="none";
-		document.getElementById('stop').style.display="block";
-	}
-	function stpVido()
-	{
-		document.getElementById('ActiveVideo').pause();
-		document.getElementById('stop').style.display="none";
-		document.getElementById('play').style.display="block";play
-	}
-	function ShowActive() {
-		document.getElementById('ActiveVideoHover').style.display='block';
-	}
-	function ShowSmall(id) {
-		var hover ="SmallVideo"+id[id.length-1];
-		document.getElementById(hover).style.display='block';
-	}
-	function HideActive() {
-		document.getElementById('ActiveVideoHover').style.display='none';
-	}
-	function HideSmall(id) {
-		var hover ="SmallVideo"+id[id.length-1];
-		document.getElementById(hover).style.display='none';
-	}
-	function MovingVideos(id)
-	{
 
-	}
 </script>
 								<!-- END Section 6 -->
 								<!-- start section 7 -->
 <section class="Section7">
 	<div class="contanier">
 		<div class="Sec7Header">
-			<h1>FEATURES</h1>
+			<h1 class="black">FEATURES</h1>
 		</div>
 		<div class="Sec7Desc">
-			<p>
+			<p class="black">
 				Description
 			</p>
 		</div>
@@ -573,36 +582,9 @@ include 'NavBar.php';
 	</div>
 </section>
 								<!-- end section 7 -->
-								<!-- START SECTION 8 -->
-<section class="Section8">
-	<div class="container">
-		<div class="Sec8Header">
-			<h2 class="text">
-				Contact With US.
-			</h2>
-			<p class="text">
-				Send Your Messnage
-			</p>
-		</div>
-		<div class="form">
-			<form method="POST"> 
-						<label class="text">NAME</label>
-						<input type="text" name="Name" class="form-control" required>
-					<br>
-						<label class="text">Email</label>
-						<input type="email" name="Email" class="form-control" required>
-					<br>
-					<label class="text">Message</label>
-					<textarea class="form-control" name="Message">
-					</textarea>
-				<div class="btnSubmit">
-					<input type="submit" name="Submit" class="btn btn-default submitting">
-				</div>
-			</form>
-		</div>
-	</div>
-</section>
-								<!-- END SECTIOM 8 -->
+							<!-- START SECTION 8 -->
+
+							<!-- END SECTIOM 8 -->
 								
 		
 <?php
