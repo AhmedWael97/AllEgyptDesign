@@ -1,95 +1,99 @@
-									/*-------------------------NAVBAR ---------------------*/
+                  /*-------------------------NAVBAR ---------------------*/
 h1,p
 {
-	color: white;
+  color: white;
 }
 hr
 {
-	width: 10%;
+  width: 10%;
 }
 .white
 {
-	color:white;
+  color:white;
+}
+.black
+{
+  color:black;
 }
 .navbar
 {
-	background-color: transparent;
-	border-color: transparent;
-	border-bottom-color: #673AB7;
-	text-align: center;
+  background-color: transparent;
+  border-color: transparent;
+  border-bottom-color: #673AB7;
+  text-align: center;
 }
 
 .BrandLogo
 {
-	width: 35%;
+  width: 35%;
 }
 
 .nav
 
 {
-	margin-top: 2%;
+  margin-top: 2%;
 }
 .text
 {
-	background: -webkit-linear-gradient(#ff00cc, #333399);
+  background: -webkit-linear-gradient(#ff00cc, #333399);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-									/*---------------------END OF NAVBAR-------------------*/
-										/*			START OF BODY */
-										/*START SECTION ONE */
+                  /*---------------------END OF NAVBAR-------------------*/
+                    /*      START OF BODY */
+                    /*START SECTION ONE */
 .Section1
 {
-	background:linear-gradient(to right,#ff00cc, #333399);
-	background-size: cover;
-	background-repeat: no-repeat;
-	text-align: center;
-	padding-top: 3%;
-	padding-bottom: 3%;
+  background:linear-gradient(to right,#ff00cc, #333399);
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  padding-top: 3%;
+  padding-bottom: 3%;
 
 }
 .BtnSection1
 {
-	background-color: transparent;
-	border-color:white;
-	padding-right: 50px;
-	padding-left: 50px;
-	margin-bottom: 4%;
-	margin-top: 3%;
-	width: 60%;
-	color: white;
+  background-color: transparent;
+  border-color:white;
+  padding-right: 50px;
+  padding-left: 50px;
+  margin-bottom: 4%;
+  margin-top: 3%;
+  width: 60%;
+  color: white;
 }
 
 
-				/*End OF Section 1*/
-				/*Start Of Section 2*/
+        /*End OF Section 1*/
+        /*Start Of Section 2*/
 .Section2
 {
-	margin-top: 4%;
-	margin-bottom: 4%;
+  margin-top: 4%;
+  margin-bottom: 4%;
 }
 .Sec2Div
 {
-	text-align: center;
+  text-align: center;
 }
 .Sec2Images
 {
-	width: 50%;
-	margin-bottom: 6%;
+  width: 50%;
+  margin-bottom: 6%;
 }
-								/*END OF SECTION 2*/
-								/*START OF SECTION 3*/
+                /*END OF SECTION 2*/
+                /*START OF SECTION 3*/
 .Section3
 {
-	background-color: #333399;
-	text-align: center;
-	padding-top: 4%;
+  background-color: #333399;
+  text-align: center;
+  padding-top: 4%;
 }
 .Sec3Slider
 {
-	margin-top:8%; 
+  margin-top:8%; 
 }
-								/*End of section3*/
+                /*End of section3*/
 #myBtn {
     display: none; 
     position: fixed; 
@@ -130,7 +134,7 @@ hr
 }
 .Up
 {
-	color:#333399;
+  color:#333399;
 }
 .popup {
     position: fixed; 
@@ -151,9 +155,9 @@ hr
     visibility: hidden;
  
     width: 450px;
-    background-color: white;
+   background: linear-gradient(to right, #ff00cc , #333399);
     color:black;
-    border-radius: 6px;
+    border-radius: 15px;
     padding:10%;
     position: absolute;
     z-index: 1;
@@ -171,7 +175,7 @@ hr
     margin-left: -5px;
     border-width: 5px;
     border-style: solid;
-    border-color: black transparent transparent transparent;
+    border-color: #333399 transparent transparent transparent;
 }
 
 
@@ -192,34 +196,34 @@ hr
     to {opacity:1 ;}
 }
 
-								/*Start of Section4*/
+                /*Start of Section4*/
 .Section4
 {
-	margin-top: 5%;
-	margin-bottom: 5%;
-	text-align: center;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  text-align: center;
 }
 .Product
 {
-	background :linear-gradient(to right,#9C27B0, #673AB7);
+  background :linear-gradient(to right,#9C27B0, #673AB7);
 }
-								/*END of section4*/
-								/*	start section 5 */
+                /*END of section4*/
+                /*  start section 5 */
 .controls
 {
-	margin-bottom: 2%;
+  margin-bottom: 2%;
 }
 .control
 {
-	background:linear-gradient(to right,#9C27B0, #673AB7);
-	color:white;
-	padding-right: 5%;
-	padding-left: 5%;
+  background:linear-gradient(to right,#9C27B0, #673AB7);
+  color:white;
+  padding-right: 5%;
+  padding-left: 5%;
 }
 .control:hover,.control:active,.control:focus
 {
 
-	background: -webkit-linear-gradient(#ff00cc, #333399);
+  background: -webkit-linear-gradient(#ff00cc, #333399);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -292,18 +296,18 @@ hr
 
 
 
-							/*	end section 5*/
+              /*  end section 5*/
 
 
-								/*start section 6*/
+                /*start section 6*/
 .Section6
 {
-	padding-top: 2%;
-	padding-bottom:5%;
-	background-color: #333399;
-	margin-top:5%;
-	margin-bottom: 5%;
-	text-align: center;
+  padding-top: 2%;
+  padding-bottom:5%;
+  background-color: #333399;
+  margin-top:5%;
+
+  text-align: center;
 }
 
 @keyframes zoomOutLeft {
@@ -354,16 +358,16 @@ hr
 }
 .Video
 {
-	width: 100%;
+  width: 100%;
 }
 .MiniVideo
 {
-	width: 100%;
+  width: 100%;
 
 }
 .anime
 {
-	float: left;
+  float: left;
    position: absolute;
    left: 0px;
    top: 0px;
@@ -376,23 +380,23 @@ hr
 }
 .AnimeBtn
 {
-	color:lightgray;
-	margin-top: 28.8%;
-	margin-bottom: 30.5%;
-	font-size: 50px;
+  color:lightgray;
+  margin-top: 28.8%;
+  margin-bottom: 30.5%;
+  font-size: 50px;
 }
 .AnimeBtn:hover
 {
-	color:white;
+  color:white;
 
 }
 #stop
 {
-	display: none;
+  display: none;
 }
 .Smallanime
 {
-	float: left;
+  float: left;
    position: absolute;
    left: 0px;
    top: 0px;
@@ -405,100 +409,78 @@ hr
 }
 .SmallBtn
 {
-	color:lightgray;
-	font-size: 25px;
-	margin-top: 30%;
-	margin-bottom: 26%;
+  color:lightgray;
+  font-size: 25px;
+  margin-top: 30%;
+  margin-bottom: 26%;
 }
-								/*end section 6*/
+                /*end section 6*/
 /*section 7*/
 .Section7
 {
-	text-align: center;
-	padding-top: 5%;
-	padding-bottom: 5%;
-	background: linear-gradient(to right, #ff00cc , #333399);
+  text-align: center;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  
 }
 /*END SECTION 7*/
 /*START SECTION 8*/
 
-.Section8
-{
-	margin-bottom: 2%;
-	margin-top: 2%;
-	padding-top: 2%;
-	padding-bottom: 2%;
-	border-radius: 25px;
-	padding-right: 41%;
-	background-color: #333399;
-	width: 40%;
 
-	background:linear-gradient(to right,#9C27B0, #673AB7);
-}
-.FormLine
-{
 
-	margin-top: 1%;
-	background-color: white;
-	height: 60%;
-	padding-top: 8%;
-	width: .5%;
-	margin-left: -3%;
-}
-.form
+.ContactHeader
 {
- margin-top: 2%;
-	
-}
-.Sec8Header
-{
-	
+  text-
 }
 .form-control
 {
-	border-color:transparent;
-	box-shadow: none;
-	margin-bottom: 2%;
-	
+  border-color:transparent;
+  box-shadow: none;
+  margin-bottom: 2%;
+  
 }
 .form-control:hover,.form-control:active,.form-control:focus
 {
-	border-color:transparent;
-	box-shadow: none;
+  border-color:transparent;
+  box-shadow: none;
 
-	width: 50%;
 }
 .submitting
 {
-	color:#333399;
-	float: right;
-	color:white;
-	background:linear-gradient(to right,#9C27B0, #673AB7);
+  color:#333399;
+  float: right;
+
 } 
-									/*END SECTION 8*/
-								/*START SECTION 9 FOOTER*/
-								/*END SECTION 9 FOOTER*/
+                  /*END SECTION 8*/
+                /*START SECTION 9 FOOTER*/
+                /*END SECTION 9 FOOTER*/
 .Section9
 {
-	background-color: #151515;
-	padding:2%;
-	text-align: center;
+  background-color: #151515;
+  padding:2%;
+  text-align: center;
+  
 }
 .SocialImage
 {
-	margin-left: 2%;
-	margin-top: 5%;
-	margin-right:1%; 
+  margin-left: 2%;
+  margin-top: 5%;
+  margin-right:1%; 
 }
-.LastMenu
+
+.Links
 {
-	margin-bottom: 4%;
-	text-align: center;
-	margin-left: 22%;
+  margin-top: 22%;
 }
-.LastMenu > p
+.LinksPart2
 {
-	cursor:pointer;  
+  margin-top: 47%;
 }
+.Link
+{
+  cursor: pointer;
+}
+
+
 
 
