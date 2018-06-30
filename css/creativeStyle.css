@@ -1,0 +1,269 @@
+									/*-------------------------NAVBAR ---------------------*/
+h1,p
+{
+	color: white;
+}
+hr
+{
+	width: 10%;
+}
+.white
+{
+	color:white;
+}
+.navbar
+{
+	background-color: transparent;
+	border-color: transparent;
+	border-bottom-color: #673AB7;
+	text-align: center;
+}
+
+.BrandLogo
+{
+	width: 35%;
+}
+
+.nav
+
+{
+	margin-top: 2%;
+}
+.text
+{
+	background: -webkit-linear-gradient(#ff00cc, #333399);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+									/*---------------------END OF NAVBAR-------------------*/
+										/*			START OF BODY */
+										/*START SECTION ONE */
+.Section1
+{
+	background:linear-gradient(to right,#ff00cc, #333399);
+	background-size: cover;
+	background-repeat: no-repeat;
+	text-align: center;
+	padding-top: 3%;
+	padding-bottom: 3%;
+
+}
+.BtnSection1
+{
+	background-color: transparent;
+	border-color:white;
+	padding-right: 50px;
+	padding-left: 50px;
+	margin-bottom: 4%;
+	margin-top: 3%;
+	width: 60%;
+	color: white;
+}
+.BtnSection1:hover
+{
+	background-color: transparent;
+	border-color:white;
+	padding-right: 50px;
+	padding-left: 50px;
+	margin-bottom: 4%;
+	margin-top: 3%;
+	width: 60%;
+	color: white
+}
+
+				/*End OF Section 1*/
+				/*Start Of Section 2*/
+.Section2
+{
+	margin-top: 4%;
+	margin-bottom: 4%;
+}
+.Sec2Div
+{
+	text-align: center;
+}
+.Sec2Images
+{
+	width: 50%;
+	margin-bottom: 6%;
+}
+								/*END OF SECTION 2*/
+								/*START OF SECTION 3*/
+.Section3
+{
+	background-color: #333399;
+	text-align: center;
+	padding-top: 4%;
+}
+.Sec3Slider
+{
+	margin-top:8%; 
+}
+								/*End of section3*/
+								/*Start of Section4*/
+.Section4
+{
+	margin-top: 5%;
+	margin-bottom: 5%;
+	text-align: center;
+}
+.Product
+{
+	background :linear-gradient(to right,#9C27B0, #673AB7);
+}
+								/*END of section4*/
+								/*	start section 5 */
+.controls
+{
+	margin-bottom: 2%;
+}
+.control
+{
+	background:linear-gradient(to right,#9C27B0, #673AB7);
+	color:white;
+	padding-right: 5%;
+	padding-left: 5%;
+}
+.control:hover,.control:active,.control:focus
+{
+
+	background: -webkit-linear-gradient(#ff00cc, #333399);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+
+							/*	end section 5*/
+
+
+								/*start section 6*/
+.Section6
+{
+	padding-top: 2%;
+	padding-bottom:5%;
+	background-color: #333399;
+	margin-top:5%;
+	margin-bottom: 5%;
+	text-align: center;
+}
+.Video
+{
+	width: 100%;
+}
+.MiniVideo
+{
+	width: 100%;
+
+}
+
+.anime
+{
+	float: left;
+   position: absolute;
+   left: 0px;
+   top: 0px;
+   z-index: 1000;
+   margin-left: 2.5%;
+   width: 95%;
+   background-color: rgb(0,0,0,.8);
+   font-weight: bold;
+  display: none;
+}
+.AnimeBtn
+{
+	color:lightgray;
+	margin-top: 28.8%;
+	margin-bottom: 30.5%;
+	font-size: 50px;
+}
+.AnimeBtn:hover
+{
+	color:white;
+
+}
+#stop
+{
+	display: none;
+}
+.Smallanime
+{
+	float: left;
+   position: absolute;
+   left: 0px;
+   top: 0px;
+   z-index: 1000;
+   margin-left: 2.5%;
+   width: 95%;
+   background-color: rgb(0,0,0,.8);
+   font-weight: bold;
+  display: none;
+}
+.SmallBtn
+{
+	color:lightgray;
+	font-size: 25px;
+}
+								/*end section 6*/
+/*section 7*/
+.Section7
+{
+	text-align: center;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	background: linear-gradient(to right, #ff00cc , #333399);
+}
+/*END SECTION 7*/
+/*START SECTION 8*/
+
+.Section8
+{
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+.Sec8Header
+{
+	text-align: center;
+}
+.form-control
+{
+	border-color:transparent;
+	box-shadow: none;
+	border-bottom-color:#CF18C2;
+	margin-bottom: 5%;
+	width: 80%;
+}
+.submitting
+{
+	background : linear-gradient(to right,#ff00cc, #333399);
+	color:white;
+	float: right;
+	margin-right: 11%;
+} 
+									/*END SECTION 8*/
+								/*START SECTION 9 FOOTER*/
+								/*END SECTION 9 FOOTER*/
+.Section9
+{
+	background-color: #151515;
+	padding:2%;
+	text-align: center;
+}
+.SocialImage
+{
+	margin-left: 2%;
+	margin-top: 5%;
+	margin-right:1%; 
+}
+.LastMenu
+{
+	margin-bottom: 4%;
+	text-align: center;
+	margin-left: 22%;
+}
+.LastMenu > p
+{
+	cursor:pointer;  
+}
+
+
