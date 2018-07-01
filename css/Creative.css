@@ -289,13 +289,15 @@ a
 }
 .Video
 {
-  width: 100%;
+  width: 555px;
+  height: 500px;
 }
+
 .MiniVideo
 {
-  width: 100%;
-  height: 100%;
-
+  background-color: black;
+width: 280px;
+height: 250px;
 }
 .anime
 {
@@ -430,6 +432,6 @@ a
 }
 .Links
 {
+  margin-top: 22%;
 
-  margin-left:13%;
 }

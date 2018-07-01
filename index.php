@@ -439,7 +439,8 @@ include 'Partial/NavBar.php';
 		               <br>
 		              </div>
 		          </div>
-						<video src="imgs/videoplayback.mp4" class="MiniVideo" id="VideoNumber1" >
+
+						<video src="imgs/videoplayback (2).mp4" class="MiniVideo" id="VideoNumber1" >
 						</video>
 					</div>
 					<div class="col-lg-6" id="MiniVideoPart2" onmouseover="ShowSmall(id)" onmouseleave="HideSmall(id)">
@@ -452,7 +453,7 @@ include 'Partial/NavBar.php';
 		               <br>
 		              </div>
 		          </div>
-						<video src="imgs/videoplayback.mp4" class="MiniVideo" id="MiniVideo1" id="VideoNumber2">
+						<video src="imgs/videoplayback.mp4" class="MiniVideo" id="VideoNumber2">
 						</video>
 					</div>
 				</div>
@@ -467,7 +468,7 @@ include 'Partial/NavBar.php';
 		               <br>
 		              </div>
 		          </div>
-						<video src="imgs/videoplayback.mp4" class="MiniVideo"  id="VideoNumber3">
+						<video src="imgs/videoplayback (3).mp4" class="MiniVideo"  id="VideoNumber3">
 						</video>
 					</div>
 					<div class="col-lg-6" id="MiniVideoPart4" onmouseover="ShowSmall(id)" onmouseleave="HideSmall(id)">

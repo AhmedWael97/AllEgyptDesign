@@ -2,7 +2,7 @@
 		
 <section class="Section9">
 	<div class="container">
-		 <div class="col-lg-3">
+		 <div class="col-lg-2">
 			<p><b>GET In Touch</b></p>
 			<hr class="Sec9Hr">
 			<p>Connect with us .. </p>
@@ -35,7 +35,7 @@
 			<br>
 			<a>Word to our Visitor</a>
 		</div>
-		<div class="col-lg-3">
+		<div class="col-lg-4">
 			<p><b>MILING LIST</b></p>
 			<p></p>
 			<form>
@@ -51,6 +51,19 @@
 				 	</form>
 				 </div>
 			</form>
+
+			<div class="row text-center Links">
+					<hr>
+					<a>Nile Cruises</a>
+					<br>
+					<a>Nile Dahabiya</a>
+					<br>
+					<a>Plan Accomodations</a>
+					<br>		
+					<a>Plan A Holiday</a>
+					<br>
+					<a> Register Partnership</a>
+			</div>
 		</div>
 		<div class="col-lg-4">
 			<div class="text-center">
@@ -73,23 +86,7 @@
 	<br>
 
 	<div class="text-center">
-			<div class="container row text-center Links">
-				<div class="col-lg-2">
-					<a>Nile Cruises</a>
-				</div>
-				<div class="col-lg-2">
-					<a>  Nile Dahabiya</a>
-				</div>
-				<div class="col-lg-2">
-					<a>  Plan Accomodations</a>
-				</div>
-				<div class="col-lg-2">
-					<a>  Plan A Holiday </a>
-				</div>
-				<div class="col-lg-2">
-					<a> Register Partnership</a>
-				</div>
-			</div>
+			
 			<br>
 		<p><b>
 			© 2018 Go Travel Egypt | Copyright by Smart Geeks
