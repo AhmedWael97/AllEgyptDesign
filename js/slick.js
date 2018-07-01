@@ -40,13 +40,8 @@
             _.defaults = {
                 accessibility: true,
                 adaptiveHeight: false,
-                appendArrows: $(element),
-                appendDots: $(element),
-                arrows: true,
                 asNavFor: null,
-                prevArrow: '<button class="slick-prev" aria-label="Previous" type="button">Previous</button>',
-                nextArrow: '<button class="slick-next" aria-label="Next" type="button">Next</button>',
-                autoplay: false,
+                autoplay: true,
                 autoplaySpeed: 3000,
                 centerMode: false,
                 centerPadding: '50px',
@@ -435,49 +430,7 @@
 
     };
 
-    Slick.prototype.buildArrows = function() {
-
-        var _ = this;
-
-        if (_.options.arrows === true ) {
-
-            _.$prevArrow = $(_.options.prevArrow).addClass('slick-arrow');
-            _.$nextArrow = $(_.options.nextArrow).addClass('slick-arrow');
-
-            if( _.slideCount > _.options.slidesToShow ) {
-
-                _.$prevArrow.removeClass('slick-hidden').removeAttr('aria-hidden tabindex');
-                _.$nextArrow.removeClass('slick-hidden').removeAttr('aria-hidden tabindex');
-
-                if (_.htmlExpr.test(_.options.prevArrow)) {
-                    _.$prevArrow.prependTo(_.options.appendArrows);
-                }
-
-                if (_.htmlExpr.test(_.options.nextArrow)) {
-                    _.$nextArrow.appendTo(_.options.appendArrows);
-                }
-
-                if (_.options.infinite !== true) {
-                    _.$prevArrow
-                        .addClass('slick-disabled')
-                        .attr('aria-disabled', 'true');
-                }
-
-            } else {
-
-                _.$prevArrow.add( _.$nextArrow )
-
-                    .addClass('slick-hidden')
-                    .attr({
-                        'aria-disabled': 'true',
-                        'tabindex': '-1'
-                    });
-
-            }
-
-        }
-
-    };
+    
 
     Slick.prototype.buildDots = function() {
 
@@ -537,7 +490,7 @@
 
         _.setupInfinite();
 
-        _.buildArrows();
+     
 
         _.buildDots();
 

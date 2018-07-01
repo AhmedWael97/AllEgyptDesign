@@ -15,9 +15,9 @@
     <link rel="stylesheet" type="text/css" href="css/slick.css">
 
   	<link rel="stylesheet" type="text/css" href="css/creativeStyle.css">
-    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
 
-      <script src="js/slick.js"></script>
+
+     
 </head>
 <body>
 	<nav class="navbar navbar-default container">

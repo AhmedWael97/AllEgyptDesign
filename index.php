@@ -347,46 +347,44 @@ include 'Partial/NavBar.php';
         <div class="container" data-ref="mixitup-container" >
         		
         			<div class="item filter1" data-ref="mixitup-target">
-        				<div class="col-sm-3">
+        				
         			<a href="#" class="thumbnail">
 						 <img src="imgs/footerpic.jpg" alt="...">
 						 </a>
-            		</div>
+            		
         		</div>
         		<div class="item filter2" data-ref="mixitup-target">
-        				<div class="col-sm-3">
+        				
         			<a href="#" class="thumbnail">
 						 <img src="imgs/footerpic.jpg" alt="...">
 						 </a>
-            		</div>
+            		
         		</div>
         		<div class="item filter3" data-ref="mixitup-target">
-        				<div class="col-sm-3">
+        				
         			<a href="#" class="thumbnail">
 						 <img src="imgs/footerpic.jpg" alt="...">
 						 </a>
-            		</div>
+            		
         		</div>
         		<div class="item filter2" data-ref="mixitup-target">
-        				<div class="col-sm-3">
+        				
         			<a href="#" class="thumbnail">
 						 <img src="imgs/footerpic.jpg" alt="...">
 						 </a>
-            		</div>
+            	
         		</div>
         		<div class="item filter2" data-ref="mixitup-target">
-        				<div class="col-sm-3">
+        				
         			<a href="#" class="thumbnail">
 						 <img src="imgs/footerpic.jpg" alt="...">
 						 </a>
-            		</div>
+            		
         		</div>
         		<div class="item filter1" data-ref="mixitup-target">
-        				<div class="col-sm-3">
         			<a href="#" class="thumbnail">
 						 <img src="imgs/footerpic.jpg" alt="...">
 						 </a>
-            		</div>
         		</div>
 
             <div class="gap"></div>
@@ -401,43 +399,7 @@ include 'Partial/NavBar.php';
 		<span class="glyphicon glyphicon-plane Up">
 		</span>
 	</button>
-		<button onclick="myFunction()" id="myBtn1" title="Go to top">
-		<span class="glyphicon glyphicon-earphone Up">
-		</span>
-		</button>
-		<div class="popup">
-		  <span class="popuptext" id="myPopup">
-		  	<div class="ContactHeader text-center">
-		  		<h2 class="white">
-			  		CONTACT US ..
-			  	</h2>
-			  	<p class="white">
-			  		Description
-			  	</p>
-		  	</div>
-		  	
-		  	<form>
-		  		<label class="white">
-		  			Name
-		  		</label>
-		  		<input type="text" name="Name" class="form-control">
-		  		<br>
-		  		<label class="white">
-		  			Email
-		  		</label>
-		  		<input type="Email" name="Email" class="form-control">
-		  		<br>
-		  		<label class="white">
-		  			Message
-		  		</label>
-		  		<textarea class="form-control">
-		  			
-		  		</textarea> 
-		  		<br>
-		  		<input type="submit" name="Submit" class="btn submitting">
-		  	</form>
-		  </span>
-		</div>
+	
 		<!--END OF  POP UP AND CONTACT US -->
 								<!-- start SECTION 6 -->
 <section class="Section6">
@@ -583,7 +545,33 @@ include 'Partial/NavBar.php';
 </section>
 								<!-- end section 7 -->
 							<!-- START SECTION 8 -->
-
+<section class="Section8">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-6 leftSide text-center col-sm-12 col-xs-12">
+				<h3>
+					Get in touch with Messages
+				</h3>
+				<p class="black">
+					You can get in touch with us by using this form 
+				</p>
+				<hr>
+				<form>
+				<div class="row">
+					<div class="col-lg-6">
+						<input type="Name" name="Name" placeholder="Name" class="form-control" required >
+					</div>
+					<div class="col-lg-6">
+						<input type="Email" name="Email" placeholder="Email" class="form-control" required >
+					</div>
+				</div>
+					<textarea class="form-control" name="Message" required placeholder="Message"></textarea>
+					<input type="submit" name="ContactSubmit" class="btn btn-default Submitting">
+				</form>
+			</div>
+		</div>
+	</div>
+</section>
 							<!-- END SECTIOM 8 -->
 								
 		

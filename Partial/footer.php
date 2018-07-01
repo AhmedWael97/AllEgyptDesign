@@ -1,84 +1,78 @@
 
 		
 <section class="Section9">
-	<div class="row">
-		<div class="col-lg-3">
+	<div class="container">
+		 <div class="col-lg-3">
 			<p><b>GET In Touch</b></p>
-			<br>
-			<p>qwdqwd qwdqwd qwdqwd qwdqwd qwdqwd qwdqwd.</p>
-			<p><span class="glyphicon glyphicon-home"></span> qwdqwd qwdqwd qwdqwd</p>
-			<p><span class="glyphicon glyphicon-earphone"></span> asd-qwdqwd qwdqwd POL</p>
-			<br>><br>
-			<img src="imgs/logo.png">
+			<hr class="Sec9Hr">
+			<p>Connect with us .. </p>
+			<p><span class="glyphicon glyphicon-home"></span> 14st, Giza Egypt</p>
+			<p><span class="glyphicon glyphicon-earphone"></span>   0111111111</p>
+			
 		</div>
-		<div class="col-lg-3">
+		<div class="col-lg-2">
 			<p><b>QuickLinks</b></p>
+			<hr class="Sec9Hr">
+			<a>Awards</a>
 			<br>
-			<p>Awards</p>
-			<p>Link1</p>
-			<p>Link1</p>
-			<p>Link1</p>
-			<p>Link1</p>
-			<p>Link1</p>
-			<div class="Links"> 
-				<div class="row">
-					<div class="col-lg-4">
-						<p class="Link">Nile Cruises</p>
-					</div>
-					<div class="col-lg-4">
-						<p class="Link">Nile Cruises</p>
-					</div>
-					<div class="col-lg-4">
-						<p class="Link">Nile Cruises</p>
-					</div>
-				</div>
-				
-			</div>
+			<a>Egypt's Attractions</a>
+			<br>
+			<a>Facts and information </a>
+			<br>
+			<a>Our Promise to you </a>
+			<br>
+			<a>Payment Policy </a>
+			<br>
+			<a>Sleeping trains in Egypt </a>
+			<br>
+			<a>Trade Fairs 2018 - 2019 </a>
+			<br>
+			<a>Visa Online </a>
+			<br>
+			<a>What We Do </a>
+			<br>
+			<a>Why Go Travel Egypt </a>
+			<br>
+			<a>Word to our Visitor</a>
 		</div>
 		<div class="col-lg-3">
 			<p><b>MILING LIST</b></p>
-			<br>
-			<p>qwd qwd qwd qwd qwd qwd qwd qwd qwd qwd qwd qwd qwd qwd qwd qwd qwd qwd qwd qwd</p>
+			<p></p>
 			<form>
-				 <div class="input-group">
-				      <input type="text" class="form-control" placeholder="Search for...">
-				      <span class="input-group-btn">
-				        <button class="btn btn-default" type="submit">
-				        	<span class="glyphicon glyphicon-send text">
-				        	</span>
-				        </button>
-				      </span>
-			    </div>
+				 <div>
+				 	<form>
+				 		<input type="text" name="Text" class="form-control" placeholder="Message">
+				 		<div class="Sec9Btn">
+							<button type="submit" name="FooterSubmit" class="btn btn-default Submitting">
+								<span class="glyphicon glyphicon-heart text">
+								</span> Thanks
+							</button>	
+				 		</div>
+				 	</form>
+				 </div>
 			</form>
-			<div class="LinksPart2"> 
-				<div class="row">
-					<div class="col-lg-4">
-						<p class="Link">Nile Cruises</p>
-					</div>
-					<div class="col-lg-4">
-						<p class="Link">Nile Cruises</p>
-					</div>
-				</div>
-				
-			</div>
 		</div>
-		<div class="col-lg-3">
-			<p><b>FLICKER STEAM</b></p>
-			<br>
-			<img src="imgs/footerpic.jpg" width="100%">
-			<img src="imgs/skype.png" width="10%" class="SocialImage">
-			<img src="imgs/viper.png" width="10%" class="SocialImage">
-			<img src="imgs/w.png" width="10%" class="SocialImage">
-			<img src="imgs/youtupe.png" width="10%" class="SocialImage">
-			<img src="imgs/line.png" width="10%" class="SocialImage">
-			<img src="imgs/googel-plus.png" width="10%" class="SocialImage">
-			<img src="imgs/facebook.png" width="10%" class="SocialImage">
+		<div class="col-lg-4">
+			<div class="text-center">
+				<p><b>FLICKER STEAM</b></p>
+			</div>
+				<hr>
+			<img src="imgs/travel.jpg" width="100%" class="FooterImage">
+			<div class="SocialIcons">
+				<img src="imgs/skype.png" width="10%" class="SocialImage">
+				<img src="imgs/viper.png" width="10%" class="SocialImage">
+				<img src="imgs/w.png" width="10%" class="SocialImage">
+				<img src="imgs/youtupe.png" width="10%" class="SocialImage">
+				<img src="imgs/line.png" width="10%" class="SocialImage">
+				<img src="imgs/googel-plus.png" width="10%" class="SocialImage">
+				<img src="imgs/facebook.png" width="10%" class="SocialImage">
+			</div>
 		</div>
 	</div>
 	<br>
 	<br>
 	
-	<div>
+	<div class="text-center">
 		<p><b>
 			© 2018 Go Travel Egypt | Copyright by Smart Geeks
 		</b></p>
@@ -99,7 +93,6 @@
             });
         </script>
 		<script src="js/script.js"></script>
-<script src="js/slick.js" type="text/javascript" charset="utf-8"></script>
 </section>
-<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script src="js/slickk.js"></script>
 <script src="js/Slider.js"></script>
