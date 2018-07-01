@@ -14,10 +14,7 @@
       <link rel="stylesheet" type="text/css" href="css/slick-theme.css">
     <link rel="stylesheet" type="text/css" href="css/slick.css">
 
-  	<link rel="stylesheet" type="text/css" href="css/Creative.css">
-
-
-     
+  	<link rel="stylesheet" type="text/css" href="css/creativeStyle.css">  
 </head>
 <body>
 	<nav class="navbar navbar-default container">
@@ -36,14 +33,14 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">HOME</a></li>
-        <li><a href="#">DAY TRIPS</a></li>
-        <li><a href="#">TRANSFERS</a></li>
-        <li><a href="#">ACCOMDATION</a></li>
-        <li><a href="#">TOURGUIDES</a></li>
-        <li><a href="#">TICKETS</a></li>
-        <li><a href="#">FLIGHT</a></li>
-        <li><a href="#">CHECKOUT</a></li>
+        <li><a><span class="NavDesign" id="Home">HOME</span></a></li>
+        <li><a>DAY TRIPS</a></li>
+        <li><a>TRANSFERS</a></li>
+        <li><a>ACCOMDATION</a></li>
+        <li><a>TOURGUIDES</a></li>
+        <li><a>TICKETS</a></li>
+        <li><a>FLIGHT</a></li>
+        <li><a>CHECKOUT</a></li>
        
       </ul>
     </div><!-- /.navbar-collapse -->

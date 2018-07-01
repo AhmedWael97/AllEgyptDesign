@@ -567,7 +567,7 @@ include 'Partial/NavBar.php';
 					</div>
 				</div>
 					<textarea class="form-control" name="Message" required placeholder="Message"></textarea>
-					<input type="submit" name="ContactSubmit" class="btn btn-default Submitting">
+					<input type="submit" name="ContactSubmit" class="btn btn-default Submitting text">
 				</form>
 			</div>
 		</div>
