@@ -1,7 +1,11 @@
-<?php 
+		<?php 
 include 'Partial/NavBar.php';
 ?>
 <section class="Section1">
+
+<br>
+<br>
+
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-6">
@@ -65,6 +69,9 @@ include 'Partial/NavBar.php';
 		</div>
 	</div>
 </section>
+<section class="text-center">
+	<img src="imgs/4876.jpg" class="Section1Image">
+</section>
 								<!-- END OF SECTION 1-->
 								<!-- Section Two -->
 <section class="Section2">
@@ -78,13 +85,13 @@ include 'Partial/NavBar.php';
 			</div>
 			<div class="col-lg-4">
 				<img src="imgs/2Sec2.png" class="Sec2Images">
-				<h4 class="text">
+				<h4>
 					Flexibility on service options
 				</h4>
 			</div>
 			<div class="col-lg-4">
 				<img src="imgs/3Sec2.png" class="Sec2Images">
-				<h4 class="text">
+				<h4>
 					Professionally Booking Process
 				</h4>
 			</div>
@@ -234,12 +241,12 @@ include 'Partial/NavBar.php';
 		    </div>
     </div>
     <div>
-    	 <div class="thumbnail">
+    	 <div class="thumbnail Product">
 		      <img src="imgs/Sec3Slider1.jpg" alt="">
 		      <div class="caption">
-				<h3 class="text">Cairo CAI - Luxor LXR</h3>
-		        <p class="text">One way flight from Cairo to Luxor on Egypt Air..</p>
-		        <p class="text">Due Date:</p>
+			    <h3 class="white">Cairo CAI - Luxor LXR</h3>
+		        <p>One way flight from Cairo to Luxor on Egypt Air..</p>
+		        <p>Due Date:</p>
 		        <p><a href="#" class="btn btn-default" role="button">PRICE</a> <a href="#" class="btn btn-default" role="button">PRICE</a></p>
 		      </div>
 		    </div>
@@ -257,27 +264,16 @@ include 'Partial/NavBar.php';
     </div>
   </section>
 		</div>
-		<br>
-		<div class="Sec4Slider">
+
+		<div class="Sec4Slider" id="SecSection4">
 			<section class="regular slider">
     <div>
-    	<div class="thumbnail Product">
-		      <img src="imgs/Sec3Slider1.jpg" alt="">
-		      <div class="caption">
-		        <h3 class="white">Cairo CAI - Luxor LXR</h3>
-		        <p>One way flight from Cairo to Luxor on Egypt Air..</p>
-		        <p>Due Date:</p>
-		       <p><a href="#" class="btn btn-default" role="button">PRICE</a> <a href="#" class="btn btn-default" role="button">PRICE</a></p>	
-		      </div>
-		    </div>
-    </div>
-    <div>
-      <div class="thumbnail">
+    	<div class="thumbnail">
 		      <img src="imgs/Sec3Slider1.jpg" alt="">
 		      <div class="caption">
 		        <h3 class="text">Cairo CAI - Luxor LXR</h3>
 		        <p class="text">One way flight from Cairo to Luxor on Egypt Air..</p>
-		        <p class="text">Due Date:</p>
+		        <p class="text">Due Date :</p>
 		        <p><a href="#" class="btn btn-default" role="button">PRICE</a> <a href="#" class="btn btn-default" role="button">PRICE</a></p>
 		      </div>
 		    </div>
@@ -294,12 +290,23 @@ include 'Partial/NavBar.php';
 		    </div>
     </div>
     <div>
-     	<div class="thumbnail">
+     <div class="thumbnail">
 		      <img src="imgs/Sec3Slider1.jpg" alt="">
 		      <div class="caption">
-				<h3 class="text">Cairo CAI - Luxor LXR</h3>
+		        <h3 class="text">Cairo CAI - Luxor LXR</h3>
 		        <p class="text">One way flight from Cairo to Luxor on Egypt Air..</p>
 		        <p class="text">Due Date:</p>
+		        <p><a href="#" class="btn btn-default" role="button">PRICE</a> <a href="#" class="btn btn-default" role="button">PRICE</a></p>
+		      </div>
+		    </div>
+    </div>
+    <div>
+     	<div class="thumbnail Product">
+		      <img src="imgs/Sec3Slider1.jpg" alt="">
+		      <div class="caption">
+			    <h3 class="white">Cairo CAI - Luxor LXR</h3>
+		        <p>One way flight from Cairo to Luxor on Egypt Air..</p>
+		        <p>Due Date:</p>
 		        <p><a href="#" class="btn btn-default" role="button">PRICE</a> <a href="#" class="btn btn-default" role="button">PRICE</a></p>
 		      </div>
 		    </div>
@@ -316,12 +323,12 @@ include 'Partial/NavBar.php';
 		    </div>
     </div>
     <div>
-    	<div class="thumbnail">
+    	<div class="thumbnail Product">
 		      <img src="imgs/Sec3Slider1.jpg" alt="">
 		      <div class="caption">
-		        <h3 class="text">Cairo CAI - Luxor LXR</h3>
-		        <p class="text">One way flight from Cairo to Luxor on Egypt Air..</p>
-		        <p class="text">Due Date :</p>
+			    <h3 class="white">Cairo CAI - Luxor LXR</h3>
+		        <p>One way flight from Cairo to Luxor on Egypt Air..</p>
+		        <p>Due Date:</p>
 		        <p><a href="#" class="btn btn-default" role="button">PRICE</a> <a href="#" class="btn btn-default" role="button">PRICE</a></p>
 		      </div>
 		    </div>
@@ -329,9 +336,7 @@ include 'Partial/NavBar.php';
   </section>
 		</div>
 	</div>
-</section>		
-
-					
+</section>					
 		 
 								<!-- END SECTION 4 -->
 								<!-- START SECTION 5 -->
@@ -394,13 +399,13 @@ include 'Partial/NavBar.php';
 </section>
 
 								<!-- END SECTION 5 -->
-								<!-- POP UP AND CONTACT US -->
+								<!-- POP UP  -->
 	<button onclick="topFunction()" id="myBtn" title="Go to top">
 		<span class="glyphicon glyphicon-plane Up">
 		</span>
 	</button>
 	
-		<!--END OF  POP UP AND CONTACT US -->
+	
 								<!-- start SECTION 6 -->
 <section class="Section6">
 	<div class="container">
@@ -412,7 +417,7 @@ include 'Partial/NavBar.php';
 		<hr>
 		<br>
 		<div class="row">
-			<div class="col-lg-6 " onmouseover="ShowActive()" onmouseleave="HideActive()"	>
+			<div class="col-lg-6" onmouseover="ShowActive()" onmouseleave="HideActive()"	>
 				<div class="anime text-center" id="ActiveVideoHover">
 		              <div class="AnimeContent">
 		               <a class="btn AnimeBtn" onclick="plyvido()" id="play">
@@ -549,7 +554,10 @@ include 'Partial/NavBar.php';
 <section class="Section8">
 	<div class="container">
 		<div class="row">
-			<div class="col-lg-6 leftSide text-center col-sm-12 col-xs-12">
+			<div class="col-lg-3">
+				
+			</div>
+			<div class="col-lg-6 text-center col-sm-12 col-xs-12">
 				<h3>
 					Get in touch with Messages
 				</h3>

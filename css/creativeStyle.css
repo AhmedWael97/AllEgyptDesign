@@ -24,13 +24,14 @@ a
 {
   background-color: transparent;
   border-color: transparent;
-  border-bottom-color: #673AB7;
+  border-bottom-color: transparent;
   text-align: center;
 }
 
 .BrandLogo
 {
   width: 35%;
+  margin-bottom: 1%;
 }
 
 .nav
@@ -38,6 +39,7 @@ a
 {
   margin-top: 2%;
 }
+
 .text
 {
   background: -webkit-linear-gradient(#ff00cc, #333399);
@@ -48,7 +50,7 @@ a
 
 .NavDesign
 {
-  color:#9629B1;
+  color:#333399;
 }
                   /*---------------------END OF NAVBAR-------------------*/
                     /*      START OF BODY */
@@ -56,18 +58,18 @@ a
 .Section1
 {
   /*background:linear-gradient(to right,#ff00cc, #333399);*/
-  background-image: url(../imgs/bckgrnd.jpg);
+  text-align: center;
+    background-image: url(../imgs/4875.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  text-align: center;
-  padding-top: 7%;
-  padding-bottom:11%;
+  padding-top: 2%;
 
 }
 .BtnSection1
 {
-  background-color: white;
-  border-color:white;
+
+  background-color: transparent;
+  border-color:black;
   padding-right: 50px;
   padding-left: 50px;
   margin-bottom: 4%;
@@ -75,7 +77,10 @@ a
   width: 60%;
   color:#333399;
 }
-
+.Section1Image
+{
+  width: 50%;
+}
 
         /*End OF Section 1*/
         /*Start Of Section 2*/
@@ -141,18 +146,20 @@ a
 .Section4
 {
   margin-top: 5%;
-  margin-bottom: 5%;
   text-align: center;
 }
 .Product
 {
   background :linear-gradient(to right,#9C27B0, #673AB7);
 }
+#SecSection4
+{
+  margin-top: -15%; 
+}
                 /*END of section4*/
                 /*  start section 5 */
-.controls
-{
-}
+
+
 .control
 {
   background:linear-gradient(to right,#9C27B0, #673AB7);
@@ -297,13 +304,18 @@ a
 {
   width: 555px;
   height: 500px;
+    background-color: black;
 }
+.ActiveVideoPlace
+{
 
+}
 .MiniVideo
 {
   background-color: black;
 width: 280px;
-height: 250px;
+height: 240px;
+margin-bottom: 8%;
 }
 .anime
 {
@@ -378,6 +390,7 @@ height: 250px;
 {
   margin-left: 28%;
 }
+
 .form-control
 {
   background-color: #F9F9F9;
@@ -432,6 +445,7 @@ height: 250px;
 .FooterImage
 {
      margin-left: 6%;
+
 }
 .SocialIcons
 {
@@ -439,7 +453,8 @@ height: 250px;
 }
 .Links
 {
-  margin-top: 22%;
+  margin-top: 2%;
+  margin-left: 7%;
 
 }
 .LogoImageFooter
@@ -447,4 +462,8 @@ height: 250px;
     margin-top: 4%;
     width: 60%;
     margin-left: 2%;
+}
+.FooterLinks
+{
+ margin-right: 2%;
 }

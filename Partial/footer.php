@@ -10,32 +10,40 @@
 			<p><span class="glyphicon glyphicon-earphone"></span>   0111111111</p>
 			<img src="imgs/logo.png" class="LogoImageFooter">
 		</div>
-		<div class="col-lg-2">
-			<p><b>QuickLinks</b></p>
-			<hr class="Sec9Hr">
-			<a>Awards</a>
+		<div class="col-lg-6">
+			<p class="text-center"><b>QuickLinks</b></p>
+			<hr>
+			<div class="row">
+				<div class="col-lg-2">
+				</div>
+				<div class="col-lg-4">
+						<a>Awards</a>
+						<br>
+						<a>Egypt's Attractions</a>
+						<br>
+						<a>Facts and information </a>
+						<br>
+						<a>Our Promise to you </a>
+						<br>
+						<a>Payment Policy </a>
+						<br>
+						<a>Sleeping trains in Egypt </a>
+						<br>
+						
+				</div>
+				<div class="col-lg-4">
+					<a>Trade Fairs 2018 - 2019 </a>
+					<br>
+					<a>Visa Online </a>
+					<br>
+					<a>What We Do </a>
+					<br>
+					<a>Why Go Travel Egypt </a>
+					<br>
+					<a>Word to our Visitor</a>
+				</div>
+			</div>
 			<br>
-			<a>Egypt's Attractions</a>
-			<br>
-			<a>Facts and information </a>
-			<br>
-			<a>Our Promise to you </a>
-			<br>
-			<a>Payment Policy </a>
-			<br>
-			<a>Sleeping trains in Egypt </a>
-			<br>
-			<a>Trade Fairs 2018 - 2019 </a>
-			<br>
-			<a>Visa Online </a>
-			<br>
-			<a>What We Do </a>
-			<br>
-			<a>Why Go Travel Egypt </a>
-			<br>
-			<a>Word to our Visitor</a>
-		</div>
-		<div class="col-lg-4">
 			<p><b>MILING LIST</b></p>
 			<p></p>
 			<form>
@@ -51,20 +59,10 @@
 				 	</form>
 				 </div>
 			</form>
+			
 
-			<div class="row text-center Links">
-					<hr>
-					<a>Nile Cruises</a>
-					<br>
-					<a>Nile Dahabiya</a>
-					<br>
-					<a>Plan Accomodations</a>
-					<br>		
-					<a>Plan A Holiday</a>
-					<br>
-					<a> Register Partnership</a>
-			</div>
 		</div>
+
 		<div class="col-lg-4">
 			<div class="text-center">
 				<p><b>FLICKER STEAM</b></p>
@@ -82,11 +80,14 @@
 			</div>
 		</div>
 	</div>
-	<br>
-	<br>
-
 	<div class="text-center">
-			
+			<div class="container row text-center Links">
+					<a class="FooterLinks">Nile Cruises</a>
+					<a class="FooterLinks">Nile Dahabiya</a>
+					<a class="FooterLinks">Plan Accomodations</a>		
+					<a class="FooterLinks">Plan A Holiday</a>
+					<a class="FooterLinks"> Register Partnership</a>
+			</div>
 			<br>
 		<p><b>
 			© 2018 Go Travel Egypt | Copyright by Smart Geeks
