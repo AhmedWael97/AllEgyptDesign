@@ -439,7 +439,7 @@ include 'Partial/NavBar.php';
 		               <br>
 		              </div>
 		          </div>
-						<video src="imgs/videoplayback2.mp4" class="MiniVideo" id="VideoNumber1" >
+						<video src="imgs/videoplayback.mp4" class="MiniVideo" id="VideoNumber1" >
 						</video>
 					</div>
 					<div class="col-lg-6" id="MiniVideoPart2" onmouseover="ShowSmall(id)" onmouseleave="HideSmall(id)">

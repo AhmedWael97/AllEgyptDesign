@@ -71,8 +71,26 @@
 	</div>
 	<br>
 	<br>
-	
+
 	<div class="text-center">
+			<div class="container row text-center Links">
+				<div class="col-lg-2">
+					<a>Nile Cruises</a>
+				</div>
+				<div class="col-lg-2">
+					<a>  Nile Dahabiya</a>
+				</div>
+				<div class="col-lg-2">
+					<a>  Plan Accomodations</a>
+				</div>
+				<div class="col-lg-2">
+					<a>  Plan A Holiday </a>
+				</div>
+				<div class="col-lg-2">
+					<a> Register Partnership</a>
+				</div>
+			</div>
+			<br>
 		<p><b>
 			© 2018 Go Travel Egypt | Copyright by Smart Geeks
 		</b></p>

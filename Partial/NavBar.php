@@ -14,7 +14,7 @@
       <link rel="stylesheet" type="text/css" href="css/slick-theme.css">
     <link rel="stylesheet" type="text/css" href="css/slick.css">
 
-  	<link rel="stylesheet" type="text/css" href="css/creativeStyle.css">
+  	<link rel="stylesheet" type="text/css" href="css/Creative.css">
 
 
      

@@ -10,6 +10,7 @@ hr
 a
 {
   color:white;
+  cursor: pointer;
 }
 .white
 {
@@ -396,11 +397,12 @@ a
 {
   background-color: #222222;
   padding-top:2%;
+  padding-bottom: 2%;
   text-align: left;
 }
 .Sec9Hr
 {
- margin-right: 81%
+ margin-right: 90%
 }
 .SocialImage
 {
@@ -414,17 +416,20 @@ a
  
   margin-left: 22%;
 }
+.Sec9Btn
+{
+  float: right;
+}
+.FooterImage
+{
+     margin-left: 6%;
+}
+.SocialIcons
+{
+  margin-left: 15%;
+}
 .Links
 {
-  text-align: right;
-}
-.LinksPart2
-{
-  
-}
-.LastMenu > p
-{
-  cursor:pointer;  
-}
 
-
+  margin-left:13%;
+}
