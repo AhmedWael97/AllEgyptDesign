@@ -86,7 +86,7 @@ function myFunction() {
 function ShowMixHover(id)
 {
 	var hoverID = "overlay"+id[id.length-1];
-	alert(hoverID);
+	
 }
 
 function HideMixHover(id)

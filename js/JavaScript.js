@@ -1,3 +1,4 @@
+	
 	function plyvido()
 	{
 		document.getElementById('ActiveVideo').play();
@@ -86,13 +87,17 @@ function myFunction() {
 function ShowMixHover(id)
 {
 	var hoverID = "overlay"+id[id.length-1];
-	document.getElementById(hoverID).style.display="block";
+	
 }
 
 function HideMixHover(id)
 {
 	var hoverID = "overlay"+id[id.length-1];
-		    		document.getElementById(hoverID).style.display="none";
-
-			    
+	
+	document.getElementById(hoverID).classList.add('rollOut');
+	document.getElementById(hoverID).classList.remove('rollIn');
+	setTimeout(function
+	{
+		document.getElementById(hoverID).style.display="none";
+	}1000);
 }

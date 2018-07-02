@@ -245,6 +245,10 @@ a
   animation-name: rollOut;
   animation-duration: .5s;
 }
+.rollIn
+{
+  
+}
 .overlay
 {
     position: absolute;
@@ -260,8 +264,9 @@ a
     z-index: 0;
        -webkit-animation-name: rollIn;
     animation-name: rollIn;
+        animation-duration: .5s;
     display: none;
-    animation-duration: .5s;
+
    
 }
 
