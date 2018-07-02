@@ -2,7 +2,7 @@
 .slick-slider
 {
     position: relative;
-
+position: relative;
     display: block;
     box-sizing: border-box;
 
@@ -20,7 +20,7 @@
 
 .slick-list
 {
-    position: relative;
+    
 
     display: block;
     overflow: hidden;
@@ -78,8 +78,7 @@
 {
     display: none;
     float: left;
-
-    height: 100%;
+    
     min-height: 1px;
 }
 [dir='rtl'] .slick-slide

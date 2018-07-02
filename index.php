@@ -69,7 +69,7 @@ include 'Partial/NavBar.php';
 			</div>
 		</div>
 	</div>
-	
+
 </section>
 
 								<!-- END OF SECTION 1-->
@@ -264,7 +264,6 @@ include 'Partial/NavBar.php';
     </div>
   </section>
 		</div>
-
 		<div class="Sec4Slider">
 			<section class="regular slider">
     <div>
@@ -340,7 +339,8 @@ include 'Partial/NavBar.php';
 		 
 								<!-- END SECTION 4 -->
 								<!-- START SECTION 5 -->
-					
+			<br>
+			<br>		
 <section class="Section5">
 		  <div class="controls container text-center">
             <button type="button" class="btn control" data-filter="all">All</button>
@@ -348,53 +348,130 @@ include 'Partial/NavBar.php';
             <button type="button" class="btn control" data-filter=".filter2">Filter2</button>
             <button type="button" class="btn control" data-filter=".filter3">Filter3</button>
         </div>
-
-        <div class="container" data-ref="mixitup-container" >
+        <br>
+        <br>
+        <div class="container text-center" data-ref="mixitup-container" >
         		
-        			<div class="item filter1" data-ref="mixitup-target">
+        		<div class="item filter1" data-ref="mixitup-target">
         				
-        			<a href="#" class="thumbnail">
-						 <img src="imgs/footerpic.jpg" alt="...">
-						 </a>
+        		<div class="thumbnail text-center" id="Thumb1" onmouseover="ShowMixHover(id)">
+        			<div class="overlay" id="overlay1">
+        			</div>
+			      <img src="imgs/travel.jpg" alt="...">
+
+			      <div class="caption">
+			        <h3>Big Trip to .. </h3>
+			        <p class="black">Here We go</p>
+			        <p><a href="#" class="btn btn-default" role="button">Price</a> <a href="#" class="btn btn-default" role="button">Price</a></p>
+			      </div>
+			    </div>
+            		
+        		</div>
+        		<div class="item filter1" data-ref="mixitup-target">
+        				
+        		<div class="thumbnail text-center" id="Thumb1" onmouseover="ShowMixHover(id)">
+        			<div class="overlay" id="overlay1">
+        			</div>
+			      <img src="imgs/travel.jpg" alt="...">
+
+			      <div class="caption">
+			        <h3>Big Trip to .. </h3>
+			        <p class="black">Here We go</p>
+			        <p><a href="#" class="btn btn-default" role="button">Price</a> <a href="#" class="btn btn-default" role="button">Price</a></p>
+			      </div>
+			    </div>
+            		
+        		</div>
+        		<div class="item filter1" data-ref="mixitup-target">
+        				
+        		<div class="thumbnail text-center" id="Thumb1" onmouseover="ShowMixHover(id)">
+        			<div class="overlay" id="overlay1">
+        			</div>
+			      <img src="imgs/travel.jpg" alt="...">
+
+			      <div class="caption">
+			        <h3>Big Trip to .. </h3>
+			        <p class="black">Here We go</p>
+			        <p><a href="#" class="btn btn-default" role="button">Price</a> <a href="#" class="btn btn-default" role="button">Price</a></p>
+			      </div>
+			    </div>
             		
         		</div>
         		<div class="item filter2" data-ref="mixitup-target">
         				
-        			<a href="#" class="thumbnail">
-						 <img src="imgs/footerpic.jpg" alt="...">
-						 </a>
+        		<div class="thumbnail text-center" id="Thumb1" onmouseover="ShowMixHover(id)">
+        			<div class="overlay" id="overlay1">
+        			</div>
+			      <img src="imgs/travel.jpg" alt="...">
+
+			      <div class="caption">
+			        <h3>Big Trip to .. </h3>
+			        <p class="black">Here We go</p>
+			        <p><a href="#" class="btn btn-default" role="button">Price</a> <a href="#" class="btn btn-default" role="button">Price</a></p>
+			      </div>
+			    </div>
+            		
+        		</div>
+        		<div class="item filter2" data-ref="mixitup-target">
+        				
+        		<div class="thumbnail text-center" id="Thumb1" onmouseover="ShowMixHover(id)">
+        			<div class="overlay" id="overlay1">
+        			</div>
+			      <img src="imgs/travel.jpg" alt="...">
+
+			      <div class="caption">
+			        <h3>Big Trip to .. </h3>
+			        <p class="black">Here We go</p>
+			        <p><a href="#" class="btn btn-default" role="button">Price</a> <a href="#" class="btn btn-default" role="button">Price</a></p>
+			      </div>
+			    </div>
+            		
+        		</div>
+        		<div class="item filter2" data-ref="mixitup-target">
+        				
+        			<div class="thumbnail text-center">
+        				<div class="overlay" id="overlay1">
+        			</div>
+			      <img src="imgs/travel.jpg" alt="...">
+			      <div class="caption">
+			        <h3>Big Trip to .. </h3>
+			        <p class="black">Here We go</p>
+			        <p><a href="#" class="btn btn-default" role="button">Price</a> <a href="#" class="btn btn-default" role="button">Price</a></p>
+			      </div>
+			    </div>
             		
         		</div>
         		<div class="item filter3" data-ref="mixitup-target">
         				
-        			<a href="#" class="thumbnail">
-						 <img src="imgs/footerpic.jpg" alt="...">
-						 </a>
+        			<div class="thumbnail text-center">
+        				<div class="overlay" id="overlay1">
+        			</div>
+			      <img src="imgs/travel.jpg" alt="...">
+			      <div class="caption">
+			        <h3>Big Trip to .. </h3>
+			        <p class="black">Here We go</p>
+			        <p><a href="#" class="btn btn-default" role="button">Price</a> <a href="#" class="btn btn-default" role="button">Price</a></p>
+			      </div>
+			    </div>
             		
         		</div>
         		<div class="item filter2" data-ref="mixitup-target">
         				
-        			<a href="#" class="thumbnail">
-						 <img src="imgs/footerpic.jpg" alt="...">
-						 </a>
+        			<div class="thumbnail text-center">
+        				<div class="overlay" id="overlay1">
+        			</div>
+			      <img src="imgs/travel.jpg" alt="...">
+			      <div class="caption">
+			        <h3>Big Trip to .. </h3>
+			        <p class="black">Here We go</p>
+			        <p><a href="#" class="btn btn-default" role="button">Price</a> <a href="#" class="btn btn-default" role="button">Price</a></p>
+			      </div>
+			    </div>
             	
         		</div>
-        		<div class="item filter2" data-ref="mixitup-target">
-        				
-        			<a href="#" class="thumbnail">
-						 <img src="imgs/footerpic.jpg" alt="...">
-						 </a>
-            		
-        		</div>
-        		<div class="item filter1" data-ref="mixitup-target">
-        			<a href="#" class="thumbnail">
-						 <img src="imgs/footerpic.jpg" alt="...">
-						 </a>
-        		</div>
+        	
 
-            <div class="gap"></div>
-            <div class="gap"></div>
-            <div class="gap"></div>
+         
         </div> 
 </section>
 

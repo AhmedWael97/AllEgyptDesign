@@ -82,3 +82,10 @@ function myFunction() {
     var popup = document.getElementById("myPopup");
     popup.classList.toggle("show");
 }
+
+function ShowMixHover(id)
+{
+	var hoverID = "overlay"+id[id.length-1];
+
+	document.getElementById(hoverID).style.display ="block";
+}

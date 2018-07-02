@@ -11,7 +11,7 @@
   	<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
   	<!-- My Awsome CSS -->
         
-      <link rel="stylesheet" type="text/css" href="css/slick-theme.css">
+    <link rel="stylesheet" type="text/css" href="css/slick-theme.css">
     <link rel="stylesheet" type="text/css" href="css/slick.css">
 
   	<link rel="stylesheet" type="text/css" href="css/Creative.css">  
