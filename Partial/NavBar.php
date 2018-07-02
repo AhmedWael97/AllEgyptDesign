@@ -14,7 +14,7 @@
     <link rel="stylesheet" type="text/css" href="css/slick-theme.css">
     <link rel="stylesheet" type="text/css" href="css/slick.css">
 
-  	<link rel="stylesheet" type="text/css" href="css/Creative.css">  
+  	<link rel="stylesheet" type="text/css" href="css/creativeStyle.css">  
 </head>
 <body>
 	<nav class="navbar navbar-default container">

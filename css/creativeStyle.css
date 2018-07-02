@@ -26,6 +26,7 @@ a
   border-color: transparent;
   border-bottom-color: transparent;
   text-align: center;
+  z-index: 1;
 }
 
 .BrandLogo
@@ -50,48 +51,42 @@ a
 
 .NavDesign
 {
-  color:#333399;
+  color:#3e1a5c;
+
 }
                   /*---------------------END OF NAVBAR-------------------*/
                     /*      START OF BODY */
                     /*START SECTION ONE */
-.Section1
-{
-  /*background:linear-gradient(to right,#ff00cc, #333399);*/
-  text-align: center;
-    background-image: url(../imgs/4875.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  padding-top: 2%;
 
-}
 .Section1
 {
   /*background:linear-gradient(to right,#ff00cc, #333399);*/
+  position: relative;
   text-align: center;
-    background-image: url(../imgs/contact.jpg);
+    background-image: url(../imgs/bckgrnd.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  padding-top: 2%;
+
+  padding-bottom: 16%;
 
 }
 .BtnSection1
 {
 
   background-color: transparent;
-  border-color:black;
+  border-color:white;
   padding-right: 50px;
   padding-left: 50px;
   margin-bottom: 4%;
   margin-top: 3%;
   width: 60%;
-  color:#333399;
+  color:white;
 }
 .BtnSection1:hover
 {
 
   background-color: white;
-  border-color:black;
+  border-color:transparent;
   padding-right: 50px;
   padding-left: 50px;
   margin-bottom: 4%;
@@ -102,6 +97,21 @@ a
 .Section1Image
 {
   width: 50%;
+}
+.navbar-default .navbar-nav>li>a {
+    color:white;}
+#overlay {
+    position: absolute;
+
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background:linear-gradient(to right,rgb(255,0,204,.4),rgb(51,51,153,.6));
+    z-index: 0;
+
 }
 
         /*End OF Section 1*/
@@ -124,6 +134,7 @@ a
 {
     display: none;
 }
+
                 /*END OF SECTION 2*/
                 /*START OF SECTION 3*/
 .Section3
@@ -131,11 +142,9 @@ a
   background-color: #333399;
   text-align: center;
   padding-top: 4%;
-  padding-bottom: 4%;
 }
 .Sec3Slider
 {
-  margin-top:8%; 
 }
 
                 /*End of section3*/
@@ -180,7 +189,88 @@ a
 }
                 /*END of section4*/
                 /*  start section 5 */
+@-webkit-keyframes rollIn {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(-100%, 0, 0) rotate3d(0, 0, 1, -120deg);
+    transform: translate3d(-100%, 0, 0) rotate3d(0, 0, 1, -120deg);
+  }
 
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes rollIn {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(-100%, 0, 0) rotate3d(0, 0, 1, -120deg);
+    transform: translate3d(-100%, 0, 0) rotate3d(0, 0, 1, -120deg);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.rollIn {
+  -webkit-animation-name: rollIn;
+  animation-name: rollIn;
+}
+
+@-webkit-keyframes rollOut {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+    -webkit-transform: translate3d(100%, 0, 0) rotate3d(0, 0, 1, 120deg);
+    transform: translate3d(100%, 0, 0) rotate3d(0, 0, 1, 120deg);
+  }
+}
+
+@keyframes rollOut {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+    -webkit-transform: translate3d(100%, 0, 0) rotate3d(0, 0, 1, 120deg);
+    transform: translate3d(100%, 0, 0) rotate3d(0, 0, 1, 120deg);
+  }
+}
+
+.rollOut {
+  -webkit-animation-name: rollOut;
+  animation-name: rollOut;
+  animation-duration:1s;
+
+}
+.overlay
+{
+    position: absolute;
+    width: 100%;
+    height: 53%; 
+    border-radius: 4px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    background-color:rgb(0,0,0,.4);
+    z-index: 0;
+       -webkit-animation-name: rollIn;
+    animation-name: rollIn;
+    display: none;
+    animation-duration: .5s;
+   
+}
 
 .control
 {
@@ -255,7 +345,7 @@ a
 @media screen and (min-width: 1281px) {
     .item,
     .gap {
-        width: calc(100%/5 - (((5 - 1) * 1rem) / 5));
+        width: calc(100%/4 - (((4 - 1) * 1rem) / 4));
     }
 }
 
@@ -488,4 +578,13 @@ margin-bottom: 8%;
 .FooterLinks
 {
  margin-right: 2%;
+}
+.input-group
+{
+  width: 80%;
+}
+.BtnFooter
+{
+  border-radius: 0px;
+  background-color: #F9F9F9;
 }

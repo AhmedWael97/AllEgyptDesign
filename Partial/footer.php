@@ -111,7 +111,7 @@
                 }
             });
         </script>
-		<script src="js/script.js"></script>
+		<script src="js/JavaScript.js"></script>
 </section>
 <script src="js/slickk.js"></script>
 <script src="js/Slider.js"></script>

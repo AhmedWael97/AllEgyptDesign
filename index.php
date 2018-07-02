@@ -352,9 +352,9 @@ include 'Partial/NavBar.php';
         <br>
         <div class="container text-center" data-ref="mixitup-container" >
         		
-        		<div class="item filter1" data-ref="mixitup-target">
-        				
-        		<div class="thumbnail text-center" id="Thumb1" onmouseover="ShowMixHover(id)">
+        		<div class="item filter1" data-ref="mixitup-target" id="Thumb1"
+        		 onmouseover="ShowMixHover(id)" onmouseleave="HideMixHover(id)">
+        		<div class="thumbnail text-center">
         			<div class="overlay" id="overlay1">
         			</div>
 			      <img src="imgs/travel.jpg" alt="...">
@@ -369,8 +369,8 @@ include 'Partial/NavBar.php';
         		</div>
         		<div class="item filter1" data-ref="mixitup-target">
         				
-        		<div class="thumbnail text-center" id="Thumb1" onmouseover="ShowMixHover(id)">
-        			<div class="overlay" id="overlay1">
+        		<div class="thumbnail text-center" id="Thumb2" onmouseover="ShowMixHover(id)" onmouseleave="HideMixHover(id)">
+        			<div class="overlay" id="overlay2">
         			</div>
 			      <img src="imgs/travel.jpg" alt="...">
 
@@ -384,8 +384,8 @@ include 'Partial/NavBar.php';
         		</div>
         		<div class="item filter1" data-ref="mixitup-target">
         				
-        		<div class="thumbnail text-center" id="Thumb1" onmouseover="ShowMixHover(id)">
-        			<div class="overlay" id="overlay1">
+        		<div class="thumbnail text-center" id="Thumb3" onmouseover="ShowMixHover(id)" onmouseleave="HideMixHover(id)">
+        			<div class="overlay" id="overlay3">
         			</div>
 			      <img src="imgs/travel.jpg" alt="...">
 
@@ -399,8 +399,8 @@ include 'Partial/NavBar.php';
         		</div>
         		<div class="item filter2" data-ref="mixitup-target">
         				
-        		<div class="thumbnail text-center" id="Thumb1" onmouseover="ShowMixHover(id)">
-        			<div class="overlay" id="overlay1">
+        		<div class="thumbnail text-center" id="Thumb4" onmouseover="ShowMixHover(id)" onmouseleave="HideMixHover(id)">
+        			<div class="overlay" id="overlay4">
         			</div>
 			      <img src="imgs/travel.jpg" alt="...">
 
@@ -414,8 +414,8 @@ include 'Partial/NavBar.php';
         		</div>
         		<div class="item filter2" data-ref="mixitup-target">
         				
-        		<div class="thumbnail text-center" id="Thumb1" onmouseover="ShowMixHover(id)">
-        			<div class="overlay" id="overlay1">
+        		<div class="thumbnail text-center" id="Thumb5" onmouseover="ShowMixHover(id)" onmouseleave="HideMixHover(id)">
+        			<div class="overlay" id="overlay5">
         			</div>
 			      <img src="imgs/travel.jpg" alt="...">
 
@@ -429,8 +429,8 @@ include 'Partial/NavBar.php';
         		</div>
         		<div class="item filter2" data-ref="mixitup-target">
         				
-        			<div class="thumbnail text-center">
-        				<div class="overlay" id="overlay1">
+        			<div class="thumbnail text-center" id="Thumb6" onmouseover="ShowMixHover(id)" onmouseleave="HideMixHover(id)">
+        				<div class="overlay" id="overlay6">
         			</div>
 			      <img src="imgs/travel.jpg" alt="...">
 			      <div class="caption">
@@ -443,8 +443,8 @@ include 'Partial/NavBar.php';
         		</div>
         		<div class="item filter3" data-ref="mixitup-target">
         				
-        			<div class="thumbnail text-center">
-        				<div class="overlay" id="overlay1">
+        			<div class="thumbnail text-center" id="Thumb7" onmouseover="ShowMixHover(id)" onmouseleave="HideMixHover(id)">
+        				<div class="overlay" id="overlay7">
         			</div>
 			      <img src="imgs/travel.jpg" alt="...">
 			      <div class="caption">
@@ -457,8 +457,8 @@ include 'Partial/NavBar.php';
         		</div>
         		<div class="item filter2" data-ref="mixitup-target">
         				
-        			<div class="thumbnail text-center">
-        				<div class="overlay" id="overlay1">
+        			<div class="thumbnail text-center" id="Thumb8" onmouseover="ShowMixHover(id)" onmouseleave="HideMixHover(id)">
+        				<div class="overlay" id="overlay8">
         			</div>
 			      <img src="imgs/travel.jpg" alt="...">
 			      <div class="caption">
