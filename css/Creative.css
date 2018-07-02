@@ -85,14 +85,14 @@ a
 .BtnSection1:hover
 {
 
-  background-color: white;
+  background: linear-gradient(to right,rgb(65,41,90,.4),rgb(47,7,67,.4));
   border-color:transparent;
   padding-right: 50px;
   padding-left: 50px;
   margin-bottom: 4%;
   margin-top: 3%;
   width: 60%;
-  color:black;
+  color:white;
 }
 .Section1Image
 {

@@ -85,14 +85,14 @@ a
 .BtnSection1:hover
 {
 
-  background-color: white;
+  background-color: linear-gradient(to right,rgb(65,41,90,.8),rgb(47,7,67,.8));
   border-color:transparent;
   padding-right: 50px;
   padding-left: 50px;
   margin-bottom: 4%;
   margin-top: 3%;
   width: 60%;
-  color:black;
+  color:white;
 }
 .Section1Image
 {
@@ -249,8 +249,7 @@ a
 .rollOut {
   -webkit-animation-name: rollOut;
   animation-name: rollOut;
-  animation-duration:1s;
-
+  animation-duration: .5s;
 }
 .overlay
 {
@@ -262,7 +261,7 @@ a
     left: 0;
     right: 0;
     bottom: 0;
-
+    background-color: black;
     background-color:rgb(0,0,0,.4);
     z-index: 0;
        -webkit-animation-name: rollIn;
