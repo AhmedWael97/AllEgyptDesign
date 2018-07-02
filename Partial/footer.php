@@ -8,7 +8,7 @@
 			<p>Connect with us .. </p>
 			<p><span class="glyphicon glyphicon-home"></span> 14st, Giza Egypt</p>
 			<p><span class="glyphicon glyphicon-earphone"></span>   0111111111</p>
-			<img src="imgs/logo.png" class="LogoImageFooter">
+			<img src="imgs/one_second_delay.gif" class="LogoImageFooter">
 		</div>
 		<div class="col-lg-6">
 			<p class="text-center"><b>QuickLinks</b></p>

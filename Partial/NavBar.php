@@ -17,7 +17,7 @@
   	<link rel="stylesheet" type="text/css" href="css/Creative.css">  
 </head>
 <body>
-	<nav class="navbar navbar-default container">
+	<nav class="navbar navbar-default">
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
@@ -27,7 +27,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <img src="imgs/logo.png" class="BrandLogo">
+      <img src="imgs/Logo3.png" class="BrandLogo">
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
@@ -37,7 +37,8 @@
         <li><a>DAY TRIPS</a></li>
         <li><a>TRANSFERS</a></li>
         <li><a>ACCOMDATION</a></li>
-        <li><a>TOURGUIDES</a></li>
+        <li><a>TOUR</a></li>
+        <li><a>GUIDES</a></li>
         <li><a>TICKETS</a></li>
         <li><a>FLIGHT</a></li>
         <li><a>CHECKOUT</a></li>

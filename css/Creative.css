@@ -31,8 +31,7 @@ a
 
 .BrandLogo
 {
-  width: 35%;
-  margin-bottom: 1%;
+  width: 30%;
 }
 
 .nav
@@ -49,11 +48,6 @@ a
 }
 
 
-.NavDesign
-{
-  color:#3e1a5c;
-
-}
                   /*---------------------END OF NAVBAR-------------------*/
                     /*      START OF BODY */
                     /*START SECTION ONE */
@@ -74,7 +68,7 @@ a
 {
 
   background-color: transparent;
-  border-color:white;
+  
   padding-right: 50px;
   padding-left: 50px;
   margin-bottom: 4%;
@@ -571,7 +565,7 @@ margin-bottom: 8%;
 .LogoImageFooter
 {
     margin-top: 4%;
-    width: 60%;
+    width: 118%;
     margin-left: 2%;
 }
 .FooterLinks
