@@ -1,11 +1,12 @@
+
+<section class="Section1">
 		<?php 
 include 'Partial/NavBar.php';
-?>
-<section class="Section1">
-
+?>	
 <br>
 <br>
-
+<br>
+<div id="overlay"></div>
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-6">
@@ -68,10 +69,9 @@ include 'Partial/NavBar.php';
 			</div>
 		</div>
 	</div>
+	
 </section>
-<section class="text-center">
-	<img src="imgs/4876.jpg" class="Section1Image">
-</section>
+
 								<!-- END OF SECTION 1-->
 								<!-- Section Two -->
 <section class="Section2">
@@ -79,7 +79,7 @@ include 'Partial/NavBar.php';
 		<div class="row Sec2Div">
 			<div class="col-lg-4">
 				<img src="imgs/1Sec2.png" class="Sec2Images">
-				<h4 class="text">
+				<h4>
 					Check the service you're looking for
 				</h4>
 			</div>
@@ -265,7 +265,7 @@ include 'Partial/NavBar.php';
   </section>
 		</div>
 
-		<div class="Sec4Slider" id="SecSection4">
+		<div class="Sec4Slider">
 			<section class="regular slider">
     <div>
     	<div class="thumbnail">

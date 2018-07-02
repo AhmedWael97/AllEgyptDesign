@@ -44,23 +44,26 @@
 				</div>
 			</div>
 			<br>
-			<p><b>MILING LIST</b></p>
-			<p></p>
-			<form>
-				 <div>
-				 	<form>
-				 		<input type="text" name="Text" class="form-control" placeholder="Message">
-				 		<div class="Sec9Btn">
-							<button type="submit" name="FooterSubmit" class="btn btn-default Submitting">
-								<span class="glyphicon glyphicon-heart text">
-								</span> Thanks
-							</button>	
-				 		</div>
-				 	</form>
-				 </div>
-			</form>
-			
-
+			<br>
+			<br>
+			<div class="row">
+				<div class="col-lg-2">
+					
+				</div>
+			<div class="col-lg-10">
+				<form>
+					 <div class="text-center">
+					 	 <div class="input-group">
+					      <input type="text" class="form-control" placeholder="MILING LIST">
+					      <span class="input-group-btn">
+					        <button class="btn btn-default BtnFooter" type="button"><span class="glyphicon glyphicon-heart text">
+									</span> Thanks</button>
+					      </span>
+					    </div>
+					 </div>
+				</form>
+			</div>
+		  </div>
 		</div>
 
 		<div class="col-lg-4">
